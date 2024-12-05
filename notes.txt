@@ -1,0 +1,20 @@
+GUIDES
+https://flatfootfox.com/ergogen-part1-units-points/
+https://www.youtube.com/watch?v=7UXsD7nSfDY
+
+Export STL from PCB
+https://www.reddit.com/r/ErgoMechKeyboards/comments/vti3pr/not_sure_about_your_ergogen_design_in_kicad/
+
+Convert KiCad to ErgoGen Footprints
+https://nilnil.notion.site/Convert-Kicad-Footprints-to-Ergogen-8340ce87ad554c69af4e3f92bc9a0898
+
+More Footprints
+https://github.com/ceoloide/ergogen-footprints/tree/main
+
+Convert JSCAD to STL
+https://neorama.de/
+
+PCB Print
+https://jlcpcb.com/
+PCB - Wire RatsNest
+https://github.com/devbisme/WireIt
