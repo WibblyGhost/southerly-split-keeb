@@ -123,13 +123,13 @@ pcbs:
           to: RST
         where:
           ref.aggregate.parts: [main_ring_top]
-          shift: [chocx * 0.3, (chocy * board_top) + (board_top_padding * 0.5)]
+          shift: [-(chocx * 0.6), (chocy * board_top) + (board_top_padding * 0.5)]
 
       trrs:
         what: trrs
         where:
           ref: main_ring_top
-          shift: [-(chocx * 0.3), (chocy * board_top) + (board_top_padding * 0.65)]
+          shift: [chocx * 0.55, (chocy * board_top)]
         params:
           A: GND
           B: GND
@@ -137,12 +137,14 @@ pcbs:
           D: VCC
           reverse: true
           symmetric: true
+        adjust:
+          rotate: -90
 
       mcu:
         what: promicro
         where:
           - ref: main_outer_top
-            shift: [chocx / 2, chocy * board_top + 1]
+            shift: [chocx / 2 - chocspace, chocy * board_top + 1]
         params:
           orientation: up
 
@@ -196,7 +198,7 @@ outlines:
   _keys_inner_cutout:
     - where: true
       what: rectangle
-      size: [14, 14]
+      size: [14.2, 14.2]
       
   _key_puller_holes:
     - name: _keys_inner_cutout
