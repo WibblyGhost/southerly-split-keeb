@@ -144,7 +144,7 @@ pcbs:
         what: promicro
         where:
           - ref: main_outer_top
-            shift: [chocx / 2 - chocspace, chocy * board_top + 1]
+            shift: [chocx / 2 - (chocspace - 1.3), chocy * board_top + 1]
         params:
           orientation: up
 
@@ -198,7 +198,7 @@ outlines:
   _keys_inner_cutout:
     - where: true
       what: rectangle
-      size: [14.2, 14.2]
+      size: [14, 14]
       
   _key_puller_holes:
     - name: _keys_inner_cutout
