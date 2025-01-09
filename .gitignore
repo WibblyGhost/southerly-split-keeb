@@ -1,3 +1,11 @@
+# Folders
 output/*
 KiCad*/*
-!kicad_output/*
+!kicad_output_*/*
+**/gerb/*
+
+# File Types
+*.afdesign
+*.lck
+*cache
+*autosave*
