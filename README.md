@@ -100,25 +100,35 @@ The case can be mirrored very easily when printing in BambooLab so I didn't both
 
 ![alt text](images/AutoDesk_3.png)
 
+## QMK Firmware
+
+...
+
+![alt text](images/pro_micro_pinout.jpg)
+
+...
 
 ## Components
 
 | Components | ID | Links | Total Cost (NZD) | Quantity | Notes |
 | ---------- | -- | ----- | ---------- | -------- | ----- |
-| Choc V1 Keycaps | | [Tai-Hao Thins](https://shop.tai-hao.com/products/white-1) | $96.67 | | Same key caps as ZSA Voyager |
+| Choc V1 Keycaps | | [Tai-Hao Thins](https://shop.tai-hao.com/products/white-1) | $96.67 | | Same key caps as ZSA Voyager (Needs to be double injected for the RGB) |
 | Choc V1 Switches | | [Ambient Silent Twilight/Nocturnal](https://keebd.com/en-nz/products/ambients-silent-linear-twilight-choc-switches?_pos=2&_fid=9a770a5f9&_ss=c) | $108 | 60 |
 | Kailh Hotswap Sockets | | [Choc Hotswap Sockets](https://keebd.com/en-nz/products/kailh-choc-hotswap-sockets?_pos=1&_psq=hotswap&_ss=e&_v=1.0) | $24 | 60 |
-| Pico Micro (USB-C) | | AliExpress | | 2 |
+| Pico Micro (USB-C) | | [AliExpress](https://www.aliexpress.com/item/1576902211.html) | $13.7 | 2 |
 | Surface Mount Diodes | SOD 123 - DSF1J | [LCSC](https://www.lcsc.com/product-detail/Fast-Recovery-High-Efficiency-Diodes_FUXINSEMI-DSF1J_C915615.html) | $1.58 | 200 |
 | RGB | led_sk6812mini-e | [LCSC](https://www.lcsc.com/product-detail/RGB-LEDs-Built-in-IC_OPSCO-Optoelectronics-SK6812MINI-E_C5149201.html) | $7.15 | 100 |
 | Surface Mount Reset Button | EVQPUA02K | [LCSC](https://www.lcsc.com/product-detail/Tactile-Switches_PANASONIC-EVQPUA02K_C128539.html) | $1.62 | 5 |
 | TRRS Connector | PJ-320A | [LCSC](https://www.lcsc.com/product-detail/Audio-Connectors_XKB-Connectivity-PJ-320AG-B_C2884984.html) | $0.39 | 5 |
 | TRRS Cable | UGreen 10732 | [LCSC](https://www.lcsc.com/product-detail/Audio-cable_UGREEN-10732_C3014968.html) | $5.06 | 5 |
 | Circuit Board | | [JLCPCB](https://jlcpcb.com/) | $11.76 | 5 |
+| **Total** | | | **$270.93** |
+
+## Notes
+
+- The key caps **must** be double injected for the RGB to shine through, otherwise you will just get an under-glow.
 
 ## Improvements & Considerations
 
 - Next time instead of using a Pro Micro, I will use a MEGA32U4 directly on the board and design the components directly into the board.
   > This will cleanup the USB-C port location and make the reversible board work correctly without having to re-design the PCB case for the mirrored side.
-
-...
