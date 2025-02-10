@@ -1,4 +1,8 @@
-# The Southerly Breeze Split Keeb
+# The Southerly - Split Keeb
+
+![Final Keeb](<images/Final 2.jpg>)
+
+<img src="images/Final 1.jpg" width="600" alt="Logo"/>
 
 <img src="images/cold-wind.svg" width="200" height="200" alt="Logo"/>
 
@@ -160,6 +164,7 @@ Also found it quite handy that I was able to download the source QMK firmware fo
 - Split Keyboard
   - [Serial Wiring](https://docs.qmk.fm/features/split_keyboard#serial-wiring)
   - [Split Keyboard](https://docs.qmk.fm/features/split_keyboard#split-keyboard)
+  - [Keeb Handedness](https://docs.qmk.fm/features/split_keyboard#handedness-by-eeprom)
 - RGB
   - [RGB: WS2812 LED](https://docs.qmk.fm/drivers/ws2812)
   - [RGB: Matrix](https://docs.qmk.fm/features/rgb_matrix)
@@ -173,6 +178,8 @@ Also found it quite handy that I was able to download the source QMK firmware fo
   - [QMK Config.h](https://docs.qmk.fm/config_options#the-configh-file)
   - [QMK Rules.mk](https://docs.qmk.fm/config_options#the-rules-mk-file)
 
+<!-- TODO: qmk flash -kb southerly -km default -bl avsdude-split-left -->
+
 ## Improvements & Considerations
 
 - Next time instead of using a Pro Micro, I will use a MEGA32U4 directly on the board and design the components directly into the board.
@@ -180,3 +187,5 @@ Also found it quite handy that I was able to download the source QMK firmware fo
 
 - Diagnose why a TRRS port isn't compatible with a TRS cable *(common audio cable)*, it must use a TRRS cable instead *(4 Pole audio cable)*.
   > I had troubles when first trying this out with a TRS cable and it shorted VCC to GND, the MCU never booted whilst plugged into TRRS.
+
+- Use I2C for TRRS communications next time, this requires some rewiring on the PCB with some pull up resistors. But will allow for multiple devices to be connected through TRRS.
