@@ -189,3 +189,7 @@ Also found it quite handy that I was able to download the source QMK firmware fo
   > I had troubles when first trying this out with a TRS cable and it shorted VCC to GND, the MCU never booted whilst plugged into TRRS.
 
 - Use I2C for TRRS communications next time, this requires some rewiring on the PCB with some pull up resistors. But will allow for multiple devices to be connected through TRRS.
+
+- Figure out how to do matrix lighting from master to slave. (It's doesn't seem to want to update the slave correctly)
+
+- Figure out how the master slave connection works properly, allow USB connection from either side?
