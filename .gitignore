@@ -3,6 +3,7 @@ output/*
 KiCad*/*
 !kicad_output_*/*
 **/gerb/*
+.vscode/
 
 # File Types
 *.afdesign
