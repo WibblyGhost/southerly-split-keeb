@@ -106,7 +106,11 @@ Adding in a patterned hex structure to the inside to help support the PCB. I add
 
 ### Standoffs
 
-TODO: Create standoffs for the board to help with tenting.
+I made some simple standoff feet to tent the keyboard and am using rubber to help prevent the keyboard from moving on the desk. It can be attached via a M5 screw and washer pair and the rubber layer either glued of clipped into the standoff base. I used PLA for the base of the standoff and TPU rubber for the foot.
+
+![Standoff Top](<images/Standoff Top.png>)
+
+![Standoff Bottom](<images/Standoff Bottom.png>)
 
 ### Combined Output
 

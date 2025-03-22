@@ -7,15 +7,14 @@
     "bootloader": "caterina",
     "processor": "atmega32u4",
     "features": {
-        "bootmagic": false,
-        "command": false,
-        "console": false,
-        "extrakey": false,
-        "mousekey": false,
+        "bootmagic": true,
+        "extrakey": true,
         "nkro": true,
-        "rgblight": false,
         "rgb_matrix": true,
         "tap_dance": true
+    },
+    "bootmagic": {
+        "matrix": [0, 0]
     },
     "matrix_pins": {
         "cols": [
